@@ -1,0 +1,34 @@
+version: '2.1'
+
+services:
+  rootlayout:
+    image: starwars-root-layout
+    build:
+      context: ./root-layout
+    ports:
+      - "3000:3000"
+    network_mode: host
+
+  navbar:
+    image: starwars-navbar-pod
+    build:
+      context: ./navbar-pod
+    ports:
+      - "3001:3001"
+    network_mode: host
+  people:
+    image: starwars-people-pod
+    build:
+      context: ./people-pod
+    ports:
+      - "3002:3002"
+    network_mode: host
+
+  planets:
+    image: starwars-planets-pod
+    build:
+      context: ./planets-pod
+    ports:
+      - "3003:3003"
+    network_mode: host
+
