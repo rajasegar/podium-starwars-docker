@@ -1,0 +1,26 @@
+{
+  "name": "people-pod",
+  "version": "1.0.0",
+  "description": "Podlet for people mfe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podium-starwars/people-pod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/podium-starwars/people-pod/issues"
+  },
+  "homepage": "https://github.com/podium-starwars/people-pod#readme",
+  "dependencies": {
+    "@podium/podlet": "^4.4.14",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

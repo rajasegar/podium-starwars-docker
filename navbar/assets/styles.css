@@ -1,0 +1,18 @@
+nav {
+  background: steelblue;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
