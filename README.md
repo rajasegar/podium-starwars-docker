@@ -1,6 +1,6 @@
 # podium-starwars-docker
 
-Micro-Frontends application using [Podium]() with Docker
+Micro-Frontends application using [Podium](https://podium-lib.io) with [Docker](https://docker.com)
 
 ## Usage
 Clone the repo and start docker
